@@ -1,13 +1,30 @@
-# React + Vite
+# 📝 React Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, responsive Todo List application built with React. This app lets you manage daily tasks with features like adding, completing, deleting, and clearing tasks. It also uses `localStorage` to preserve your todo list across browser sessions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Add tasks with a single click
+- Mark tasks as completed/incomplete
+- Delete individual tasks
+- Clear all tasks at once
+- Persist tasks using `localStorage`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# ToDo-list
+---
+
+## 🛠️ Built With
+
+- [React](https://reactjs.org/) (Functional Components & Hooks)
+- JavaScript (ES6+)
+- HTML5 & CSS3
+- Browser `localStorage` API
+
+---
+## 🧠 Key Concepts Used
+
+- `useState` for managing input and todo list state
+- `useEffect` for syncing with `localStorage`
+- Array operations: `.map()`, `.filter()`
+- Conditional rendering and inline styles in JSX

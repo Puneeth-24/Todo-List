@@ -1,0 +1,107 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Center the content in the middle */
+.container {
+    border: 1px ;
+    outline: none;
+    border-radius: 10%;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.201);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Style the Heading */
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  /* Style the input field */
+  input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    width: 250px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #4caf50;
+  }
+  
+  /* Style the Add Task button */
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the Todo List */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Strikethrough text for completed tasks */
+  span {
+    flex: 1;
+    font-size: 1rem;
+  }
+  
+  span[style="text-decoration: line-through;"] {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  /* Style the checkbox and delete button */
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #c0392b;
+  }
